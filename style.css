@@ -67,7 +67,7 @@ blockquote::after { content: ' " '; }
 #lunchTimeSelector, 
 #napTimeSelector {
     padding: 10px 0;
-    margin: 5px;
+    margin: -6px 0 10px;
     cursor: pointer;
 }
 
@@ -95,6 +95,11 @@ footer p {
     .on-mobile-tablet {
         margin: 0;
         font-size: 18px;
+    }
+    #wakeUpTimeSelector,
+    #lunchTimeSelector, 
+    #napTimeSelector {
+        margin: 5px;
     }
 }
 
